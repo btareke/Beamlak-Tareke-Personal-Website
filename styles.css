@@ -786,6 +786,14 @@ section { padding: var(--section-pad) 0; }
     filter: brightness(0.95);
 }
 
+/* Logo-style thumbnails: show the whole logo on its brand background */
+.project-image.logo-bg { background: #F6F5F1; }
+
+.project-thumbnail.logo-thumbnail {
+    object-fit: contain;
+    padding: 4.5rem 3rem;
+}
+
 .play-overlay {
     position: absolute;
     top: 50%;
